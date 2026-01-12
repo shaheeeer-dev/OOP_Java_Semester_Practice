@@ -1,3 +1,48 @@
+<p align="left">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <br>
+  <img src="https://img.shields.io/badge/OOP-Practice-blue?style=for-the-badge"/>
+</p>
+
+# OOP Java Semester Practice
+
+This repository contains all my Object-Oriented Programming (Java)
+practice, assignments, and mini projects completed during the semester.
+
+## 📚 Topics Covered
+- Classes & Objects
+- Constructors & Constructor Chaining
+- Inheritance & Polymorphism
+- Abstract Classes & Interfaces
+- Aggregation & Composition
+- Exception Handling
+- File Handling
+- GUI (Java Swing)
+
+## 📝 Assignments
+Each assignment folder contains:
+- Problem statement
+- Solution code
+- Output screenshots
+
+## 🧠 Practice Problems
+Includes self-practice problems solved to strengthen OOP concepts.
+
+## 🖥️ GUI Projects
+Small GUI-based systems implemented using Java Swing.
+
+## ⚙️ Tools & Technologies
+- Java
+- Java Swing
+- IntelliJ
+
+## 📌 Purpose
+This repository is created for learning, revision, and showcasing
+my OOP understanding.
+
+<hr>
+
+```
 OOP_Java_Semester_Practice/
 │
 ├── 01_Basics/
@@ -39,3 +84,4 @@ OOP_Java_Semester_Practice/
 │   └── products.csv
 │
 └── README.md
+```

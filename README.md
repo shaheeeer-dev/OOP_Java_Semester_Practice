@@ -42,6 +42,8 @@ my OOP understanding.
 
 <hr>
 
+## 📂 Folder Structure
+
 ```
 OOP_Java_Semester_Practice/
 │

@@ -1,4 +1,5 @@
-`````✅ Problem 1: Student Record System
+`````
+✅ Problem 1: Student Record System
 
 Scenario
 Create a system to store and display student academic data.
@@ -9,9 +10,8 @@ Requirements
 	•	name
 	•	marks
 	•	Create at least 3 Student objects
-	•	Display:
-	•	Student details
-	•	Average marks of all students
+	•	Display: Student details
+	•	Print Average marks of all students
 
 Concepts used
 	•	Class
@@ -100,7 +100,7 @@ Requirements
 
 ⸻
 
-🔥 Problem 6: Mobile Phone Store
+✅ Problem 6: Mobile Phone Store
 
 Scenario
 Manage mobile phones in a store.

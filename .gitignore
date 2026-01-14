@@ -1,6 +1,8 @@
 # Default ignored files
 /shelf/
 /.idea/workspace.xml
+
+# macOS files
 **/.DS_Store
 
 # Compiled Java files

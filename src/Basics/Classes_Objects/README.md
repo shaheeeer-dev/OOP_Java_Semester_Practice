@@ -82,25 +82,7 @@ Common exam trap: Boolean state handling
 
 ⸻
 
-✅ Problem 5: Employee Salary Calculator
-
-Scenario
-A company calculates employee salaries.
-
-Requirements
-	•	Create an Employee class with:
-	•	id
-	•	name
-	•	basicSalary
-	•	Method:
-	•	calculateNetSalary()
-(Add 20% bonus to basic salary)
-	•	Create multiple employees
-	•	Display net salary
-
-⸻
-
-✅ Problem 6: Mobile Phone Store
+✅ Problem 5: Mobile Phone Store
 
 Scenario
 Manage mobile phones in a store.

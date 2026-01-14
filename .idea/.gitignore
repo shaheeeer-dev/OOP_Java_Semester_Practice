@@ -2,3 +2,15 @@
 /shelf/
 /workspace.xml
 **/.DS_Store
+
+# Compiled Java files
+*.class
+
+# IDE files
+.idea/
+.vscode/
+
+# Build folders
+out/
+bin/
+target/

@@ -53,9 +53,10 @@ src/
 │   └── Code_Readability/
 │
 ├── 02_Core_OOP/
+|   ├── Encapsulation/
 │   ├── Inheritance/
 │   ├── Polymorphism/
-│   ├── Abstract_Classes/
+│   ├── Abstraction/
 │   └── Interfaces/
 │
 ├── 03_Object_Relationships/

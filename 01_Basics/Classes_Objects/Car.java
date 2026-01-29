@@ -1,6 +1,6 @@
 //Problem 3: Car Showroom
 
-package Basics.Classes_Objects;
+package Classes_Objects;
 
 public class Car {
     //instance variables

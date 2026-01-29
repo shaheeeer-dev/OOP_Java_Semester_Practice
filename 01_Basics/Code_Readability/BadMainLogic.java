@@ -1,6 +1,6 @@
 //Problem 2: Method Refactoring
 
-package Basics.Code_Readability;
+package Code_Readability;
 
 public class BadMainLogic {
     static void badMainLogic() {

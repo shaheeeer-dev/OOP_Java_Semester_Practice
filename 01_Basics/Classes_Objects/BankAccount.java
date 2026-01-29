@@ -1,6 +1,6 @@
 //Problem 2: Bank Account Simulator
 
-package Basics.Classes_Objects;
+package Classes_Objects;
 
 public class BankAccount {
     String accountNumber;

@@ -1,6 +1,6 @@
 //Problem 5: Mobile Phone Store
 
-package Basics.Classes_Objects;
+package Classes_Objects;
 
 public class MobilePhone {
     String brand;

@@ -1,6 +1,6 @@
 //Problem 3: Laptop Inventory
 
-package Basics.Constructors;
+package Constructors;
 
 public class Laptop {
     String brand;

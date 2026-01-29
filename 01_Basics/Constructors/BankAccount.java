@@ -1,6 +1,6 @@
 //Problem 2: Bank Account Setup
 
-package Basics.Constructors;
+package Constructors;
 
 public class BankAccount {
     String accountNumber;

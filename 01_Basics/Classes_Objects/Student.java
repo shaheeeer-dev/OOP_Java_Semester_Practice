@@ -1,6 +1,6 @@
 //Problem 1: Student Record System
 
-package Basics.Classes_Objects;
+package Classes_Objects;
 
 public class Student {  //Student class
     //Instance variables

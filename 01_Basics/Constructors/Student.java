@@ -1,6 +1,6 @@
 //Problem 1: Student Admission System
 
-package Basics.Constructors;
+package Constructors;
 
 public class Student {
     int studentId;

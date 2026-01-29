@@ -1,6 +1,6 @@
 // Problem 1: Improve Variable Naming
 
-package Basics.Code_Readability;
+package Code_Readability;
 
 public class BadNaming {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 //Problem 3: Employee Salary Management
 
-package Core_OOP.Encapsulation;
+package Encapsulation;
 
 public class Employee {
 

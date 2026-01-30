@@ -1,6 +1,6 @@
 //Problem 4: Vehicle Fuel System
 
-package Core_OOP.Abstraction;
+package Abstraction;
 
 abstract class Vehicle {
     abstract double fuelConsumption();

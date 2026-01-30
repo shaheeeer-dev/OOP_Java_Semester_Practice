@@ -1,6 +1,6 @@
 //Problem 3: Employee Salary System
 
-package Core_OOP.Abstraction;
+package Abstraction;
 
 abstract class Employee {
     abstract double calculateSalary();

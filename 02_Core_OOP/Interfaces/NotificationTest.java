@@ -1,6 +1,6 @@
 //Problem 2: Notification System
 
-package Core_OOP.Interfaces;
+package Interfaces;
 
 interface Notification {
     void send(String message);

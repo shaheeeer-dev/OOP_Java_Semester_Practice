@@ -1,6 +1,6 @@
 //Problem 1: Payment System
 
-package Core_OOP.Interfaces;
+package Interfaces;
 
 interface Payment {
     void processPayment(double amount);

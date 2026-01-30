@@ -1,6 +1,6 @@
 //Problem 3: Method Inheritance & Extension
 
-package Core_OOP.Inheritance;
+package Inheritance;
 
 public class Account {
     private String accountNumber;

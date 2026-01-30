@@ -1,6 +1,6 @@
 //Problem 5: Shape Drawing System
 
-package Core_OOP.Abstraction;
+package Abstraction;
 
 abstract class Shape {
     abstract void draw();

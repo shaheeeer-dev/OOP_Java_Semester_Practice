@@ -1,6 +1,6 @@
 //Problem 4: Media Player
 
-package Core_OOP.Polymorphism;
+package Polymorphism;
 
 class MediaFile {
     public void play() {

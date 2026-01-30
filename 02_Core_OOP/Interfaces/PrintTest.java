@@ -1,6 +1,6 @@
 //Problem 3: Printable Documents
 
-package Core_OOP.Interfaces;
+package Interfaces;
 
 interface Printable {
     void print();

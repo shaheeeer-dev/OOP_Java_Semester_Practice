@@ -1,6 +1,6 @@
 //Problem 1: Bank Account Security
 
-package Core_OOP.Encapsulation;
+package Encapsulation;
 
 public class BankAccount {
     private String accountNumber;

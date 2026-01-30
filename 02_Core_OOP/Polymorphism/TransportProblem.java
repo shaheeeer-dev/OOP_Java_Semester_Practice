@@ -1,6 +1,6 @@
 //Problem 6: Transport Fare Calculation
 
-package Core_OOP.Polymorphism;
+package Polymorphism;
 
 class Transport {
     public double calculateFare(int distance) {

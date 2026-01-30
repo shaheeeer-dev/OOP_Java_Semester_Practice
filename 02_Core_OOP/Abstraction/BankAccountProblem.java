@@ -1,6 +1,6 @@
 //Problem 2: Bank Account Types
 
-package Core_OOP.Abstraction;
+package Abstraction;
 
 abstract class Account {
     abstract double calculateInterest();

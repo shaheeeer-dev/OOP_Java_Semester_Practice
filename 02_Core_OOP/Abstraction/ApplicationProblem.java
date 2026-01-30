@@ -1,6 +1,6 @@
 //Problem 1: Appliance Control
 
-package Core_OOP.Abstraction;
+package Abstraction;
 
 abstract class Appliance{
     abstract void turnOn();

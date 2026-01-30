@@ -1,6 +1,6 @@
 //Problem 2: Student Result System
 
-package Core_OOP.Encapsulation;
+package Encapsulation;
 
 public class Student {
     private String rollNumber;

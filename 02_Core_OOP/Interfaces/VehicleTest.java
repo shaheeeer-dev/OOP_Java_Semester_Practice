@@ -1,6 +1,6 @@
 //Problem 5: Vehicle Control System
 
-package Core_OOP.Interfaces;
+package Interfaces;
 
 interface VehicleControl {
     void start();

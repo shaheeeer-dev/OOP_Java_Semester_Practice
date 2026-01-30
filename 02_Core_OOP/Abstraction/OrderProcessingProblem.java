@@ -1,6 +1,6 @@
 //Problem 6: Online Order Processing System
 
-package Core_OOP.Abstraction;
+package Abstraction;
 
 abstract class Order {
     int orderId;

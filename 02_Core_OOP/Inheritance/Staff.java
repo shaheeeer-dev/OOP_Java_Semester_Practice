@@ -1,6 +1,6 @@
 //Problem 4: Multilevel Inheritance
 
-package Core_OOP.Inheritance;
+package Inheritance;
 
 public class Staff {
     private int staffId;

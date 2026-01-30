@@ -1,6 +1,6 @@
 //Problem 5: Employee Bonus System
 
-package Core_OOP.Polymorphism;
+package Polymorphism;
 
 class Employee {
     public double calculateBonus() {

@@ -1,6 +1,6 @@
 //Problem 1: Single Inheritance
 
-package Core_OOP.Inheritance;
+package Inheritance;
 
 public class Person {
     private String name;

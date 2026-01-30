@@ -1,6 +1,6 @@
 //Problem 4: Smart Devices
 
-package Core_OOP.Interfaces;
+package Interfaces;
 
 interface SmartDevice {
     void turnOn();

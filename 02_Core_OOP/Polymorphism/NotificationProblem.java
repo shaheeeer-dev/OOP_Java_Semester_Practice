@@ -1,6 +1,6 @@
 //Problem 2: Notification System
 
-package Core_OOP.Polymorphism;
+package Polymorphism;
 
 class Notification {
     public void send() {

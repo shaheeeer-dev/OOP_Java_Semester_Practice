@@ -1,6 +1,6 @@
 //Problem 3: Shape Area Calculator
 
-package Core_OOP.Polymorphism;
+package Polymorphism;
 
 class Shape {
     public double calculateArea() {

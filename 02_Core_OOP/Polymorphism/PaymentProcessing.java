@@ -1,6 +1,6 @@
 //Problem 1: Payment Processing
 
-package Core_OOP.Polymorphism;
+package Polymorphism;
 
 class Payment {
     public void processPayment() {

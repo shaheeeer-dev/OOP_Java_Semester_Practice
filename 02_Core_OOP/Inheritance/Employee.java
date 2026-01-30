@@ -1,6 +1,6 @@
 //Problem 2: Constructor Inheritance
 
-package Core_OOP.Inheritance;
+package Inheritance;
 
 public class Employee {
     private int id;

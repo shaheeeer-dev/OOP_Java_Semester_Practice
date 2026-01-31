@@ -7,7 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/02_Core_OOP" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/03_Object_Relationships" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Advanced_Concepts" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04_Advanced_Concepts" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
     </content>
     <orderEntry type="inheritedJdk" />

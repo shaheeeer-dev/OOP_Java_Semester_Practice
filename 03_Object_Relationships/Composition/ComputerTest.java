@@ -1,6 +1,6 @@
 //Problem 3: Computer & CPU
 
-package Object_Relationships.Composition;
+package Composition;
 
 class CPU {
     String brand;

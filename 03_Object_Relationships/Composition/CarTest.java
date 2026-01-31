@@ -1,6 +1,6 @@
 //Problem 1: Car & Engine
 
-package Object_Relationships.Composition;
+package Composition;
 
 class Engine {
     String type;

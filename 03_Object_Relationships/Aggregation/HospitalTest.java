@@ -1,6 +1,6 @@
 //Problem 4: Company & Employee
 
-package Object_Relationships.Aggregation;
+package Aggregation;
 
 import java.util.ArrayList;
 

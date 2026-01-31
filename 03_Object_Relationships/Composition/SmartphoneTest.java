@@ -1,6 +1,6 @@
 //Problem 5: Smartphone & Battery
 
-package Object_Relationships.Composition;
+package Composition;
 
 class Battery {
     int capacity;

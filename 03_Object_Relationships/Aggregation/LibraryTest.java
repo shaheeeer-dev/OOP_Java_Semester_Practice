@@ -1,6 +1,6 @@
 //Problem 2: Library & Book
 
-package Object_Relationships.Aggregation;
+package Aggregation;
 
 import java.util.ArrayList;
 

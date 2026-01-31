@@ -1,6 +1,6 @@
 //Problem 3: Department & Teacher
 
-package Object_Relationships.Aggregation;
+package Aggregation;
 
 import java.util.ArrayList;
 

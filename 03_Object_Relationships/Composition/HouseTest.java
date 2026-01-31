@@ -1,6 +1,6 @@
 //Problem 2: House & Room
 
-package Object_Relationships.Composition;
+package Composition;
 
 class Room {
     int roomNo;

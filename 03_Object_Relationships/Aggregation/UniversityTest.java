@@ -1,6 +1,6 @@
 //Problem 1: University & Student
 
-package Object_Relationships.Aggregation;
+package Aggregation;
 
 import java.util.ArrayList;
 

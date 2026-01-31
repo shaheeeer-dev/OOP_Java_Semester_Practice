@@ -1,6 +1,6 @@
 //Problem 1: Safe Division Calculator
 
-package Advanced_Concepts.Exception_Handling;
+package Exception_Handling;
 
 class DivisionCalculator {
 

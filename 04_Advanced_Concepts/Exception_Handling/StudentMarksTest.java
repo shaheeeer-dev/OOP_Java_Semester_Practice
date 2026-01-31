@@ -1,6 +1,6 @@
 //Problem 2: Student Marks System
 
-package Advanced_Concepts.Exception_Handling;
+package Exception_Handling;
 
 class StudentMarks {
     private int[] marks = {90, 85, 70};

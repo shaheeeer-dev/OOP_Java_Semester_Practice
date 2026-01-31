@@ -1,6 +1,6 @@
 //Problem 3: Bank Deposit System (Custom Exception)
 
-package Advanced_Concepts.Exception_Handling;
+package Exception_Handling;
 
 class InvalidAmountException extends Exception {
     public InvalidAmountException(String message) {

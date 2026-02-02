@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/02_Core_OOP" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/03_Object_Relationships" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/04_Advanced_Concepts" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05_GUI" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
     </content>
     <orderEntry type="inheritedJdk" />

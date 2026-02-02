@@ -45,7 +45,7 @@ my OOP understanding.
 ## 📂 Folder Structure
 
 ```
-src/
+OOP_Java_Semester_Practice/
 │
 ├── 01_Basics/
 │   ├── Classes_Objects/
@@ -84,7 +84,7 @@ src/
 ├── 07_Practice_Problems/
 │   ├── Problem_01.java
 │   ├── Problem_02.java
-│   └── CompareBook.java
+│   └── ...
 │
 ├── data/
 │   ├── students.csv

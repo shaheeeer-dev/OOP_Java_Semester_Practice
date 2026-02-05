@@ -3,34 +3,21 @@ package Mini_Projects.Project_01;
 import java.io.*;
 import java.util.ArrayList;
 
-public class StudentManager {
-    private ArrayList<Student> students = new ArrayList<>();
+class StudentManager {
+    private final ArrayList<Student> students = new ArrayList<>();
 
-    public void addStudent(Student s) {
-        students.add(s);
-    }
+    public void addStudent(Student s) { students.add(s); }
 
-    public void updateStudent(String id, Student updated) {
-        for (int i = 0; i < students.size(); i++) {
-            if (students.get(i).getId().equals(id)) {
-                students.set(i, updated);
-                return;
-            }
-        }
-    }
+    public ArrayList<Student> getStudents() { return students; }
 
-    public void deleteStudent(String id) {
-        students.removeIf(s -> s.getId().equals(id));
-    }
-
-    public Student searchStudentById(String id) {
+    public Student searchById(String id) {
         for (Student s : students) {
-            if (s.getId().equals(id)) return s;
+            if (s.getId().equalsIgnoreCase(id)) return s;
         }
         return null;
     }
 
-    public ArrayList<Student> searchStudentByName(String name) {
+    public ArrayList<Student> searchByName(String name) {
         ArrayList<Student> result = new ArrayList<>();
         for (Student s : students) {
             if (s.getName().equalsIgnoreCase(name)) result.add(s);
@@ -38,7 +25,5 @@ public class StudentManager {
         return result;
     }
 
-    public ArrayList<Student> getAllStudents() {
-        return students;
-    }
+    public void deleteStudent(Student s) { students.remove(s); }
 }

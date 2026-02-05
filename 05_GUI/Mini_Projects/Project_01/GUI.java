@@ -4,17 +4,18 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.io.*;
+import java.util.ArrayList;
 
 public class GUI {
     private JFrame frame;
-    StudentManager manager = new StudentManager();
-    String[] columns = {"ID", "Name", "Department", "Semester", "CGPA"};
+    private StudentManager manager = new StudentManager();
+    private String[] columns = {"ID", "Name", "Department", "Semester", "CGPA"};
 
     public GUI() {
         initializeGUI();
     }
 
-    void initializeGUI(){
+    void initializeGUI() {
         frame = new JFrame("Student Management System");
         frame.setSize(900, 450);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -38,7 +39,6 @@ public class GUI {
         JLabel cgpaLabel = new JLabel("CGPA");
         cgpaLabel.setBounds(20, 270, 80, 25);
 
-
         JTextField idField = new JTextField();
         idField.setBounds(120, 70, 180, 25);
 
@@ -54,22 +54,17 @@ public class GUI {
         JTextField cgpaField = new JTextField();
         cgpaField.setBounds(120, 270, 180, 25);
 
-        JButton searchBtn = new JButton("Search Student");
-        searchBtn.setBounds(150, 340, 120, 35);
-
         DefaultTableModel model = new DefaultTableModel(columns, 0);
         JTable table = new JTable(model);
-
         JScrollPane scrollPane = new JScrollPane(table);
-        scrollPane.setBounds(350, 20, 530, 360);
+        scrollPane.setBounds(350, 20, 530, 370);
 
         JButton addBtn = new JButton("Add Student");
-        addBtn.setBounds(20, 340, 120, 35);
+        addBtn.setBounds(20, 320, 120, 35);
         addBtn.addActionListener(e -> {
             String id = idField.getText().trim();
             String name = nameField.getText().trim();
             String dept = deptField.getText().trim();
-
             if (!id.isEmpty() && !name.isEmpty() && !dept.isEmpty()) {
                 try {
                     int sem = Integer.parseInt(semField.getText().trim());
@@ -83,12 +78,77 @@ public class GUI {
                     deptField.setText("");
                     semField.setText("");
                     cgpaField.setText("");
-                }catch (Exception ex){
-                    JOptionPane.showMessageDialog(null, "Enter valid numbers");
+                } catch (Exception ex) {
+                    JOptionPane.showMessageDialog(frame, "Enter valid numbers");
                 }
+            } else {
+                JOptionPane.showMessageDialog(frame, "Fill all fields");
             }
-            else {
-                JOptionPane.showMessageDialog(null, "Fill all fields");
+        });
+
+        JButton searchBtn = new JButton("Search Student");
+        searchBtn.setBounds(150, 320, 120, 35);
+        searchBtn.addActionListener(e -> {
+            String id = idField.getText().trim();
+            String name = nameField.getText().trim();
+
+            model.setRowCount(0);
+            if (!id.isEmpty()) {
+                Student s = manager.searchById(id);
+                if (s != null)
+                    model.addRow(new Object[]{s.getId(), s.getName(), s.getDepartment(), s.getSemester(), s.getCGPA()});
+                else JOptionPane.showMessageDialog(frame, "Student not found");
+            } else if (!name.isEmpty()) {
+                ArrayList<Student> list = manager.searchByName(name);
+                if (!list.isEmpty()) {
+                    for (Student s : list)
+                        model.addRow(new Object[]{s.getId(), s.getName(), s.getDepartment(), s.getSemester(), s.getCGPA()});
+                } else JOptionPane.showMessageDialog(frame, "Student not found");
+            } else {
+                JOptionPane.showMessageDialog(frame, "Enter ID or Name to search");
+            }
+        });
+
+        JButton deleteBtn = new JButton("Delete Student");
+        deleteBtn.setBounds(20, 360, 120, 35);
+        deleteBtn.addActionListener(e -> {
+            int selectedRow = table.getSelectedRow();
+            if (selectedRow >= 0) {
+                String id = (String) model.getValueAt(selectedRow, 0);
+                Student s = manager.searchById(id);
+                if (s != null) {
+                    manager.deleteStudent(s);
+                    model.removeRow(selectedRow);
+                }
+            } else {
+                JOptionPane.showMessageDialog(frame, "Select a student to delete");
+            }
+        });
+
+        JButton updateBtn = new JButton("Update Student");
+        updateBtn.setBounds(150, 360, 130, 35);
+        updateBtn.addActionListener(e -> {
+            int selectedRow = table.getSelectedRow();
+            if (selectedRow >= 0) {
+                try {
+                    String id = (String) model.getValueAt(selectedRow, 0);
+                    Student s = manager.searchById(id);
+                    if (s != null) {
+                        s.setName(nameField.getText().trim());
+                        s.setDepartment(deptField.getText().trim());
+                        s.setSemester(Integer.parseInt(semField.getText().trim()));
+                        s.setCGPA(Double.parseDouble(cgpaField.getText().trim()));
+
+                        model.setValueAt(s.getName(), selectedRow, 1);
+                        model.setValueAt(s.getDepartment(), selectedRow, 2);
+                        model.setValueAt(s.getSemester(), selectedRow, 3);
+                        model.setValueAt(s.getCGPA(), selectedRow, 4);
+                    }
+                } catch (Exception ex) {
+                    JOptionPane.showMessageDialog(frame, "Enter valid values for update");
+                }
+            } else {
+                JOptionPane.showMessageDialog(frame, "Select a student to update");
             }
         });
 
@@ -105,6 +165,8 @@ public class GUI {
         frame.add(cgpaField);
         frame.add(addBtn);
         frame.add(searchBtn);
+        frame.add(deleteBtn);
+        frame.add(updateBtn);
         frame.add(scrollPane);
 
         frame.setVisible(true);

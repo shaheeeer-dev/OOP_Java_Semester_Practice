@@ -1,5 +1,7 @@
 ```
-Student Management System (Desktop Application)
+Mini Projects Using Swing
+
+01: Student Management System (Desktop Application)
 
 📌 Problem Statement
 
@@ -21,7 +23,7 @@ Develop a Student Management System using Java Swing that allows an institute to
 
 ⸻
 
-Library Book Management System
+02: Library Book Management System
 
 📌 Problem Statement
 
@@ -43,7 +45,7 @@ Create a Library Management System using Java Swing where a librarian can manage
 
 ⸻
 
-Simple Banking System (ATM Simulator)
+03: Simple Banking System (ATM Simulator)
 
 📌 Problem Statement
 

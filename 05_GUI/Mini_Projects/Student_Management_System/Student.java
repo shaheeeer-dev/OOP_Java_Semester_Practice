@@ -1,4 +1,4 @@
-package Mini_Projects.Project_01;
+package Mini_Projects.Student_Management_System;
 
 public class Student {
     private int semester;

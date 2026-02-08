@@ -1,9 +1,7 @@
-package Mini_Projects.Project_01;
+package Mini_Projects.Student_Management_System;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import java.awt.*;
-import java.io.*;
 import java.util.ArrayList;
 
 public class GUI {

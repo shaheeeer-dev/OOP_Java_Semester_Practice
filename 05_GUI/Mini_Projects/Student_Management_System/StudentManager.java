@@ -1,6 +1,5 @@
-package Mini_Projects.Project_01;
+package Mini_Projects.Student_Management_System;
 
-import java.io.*;
 import java.util.ArrayList;
 
 class StudentManager {

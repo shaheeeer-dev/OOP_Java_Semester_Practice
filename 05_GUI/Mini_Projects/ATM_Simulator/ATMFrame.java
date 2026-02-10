@@ -101,6 +101,6 @@ public class ATMFrame extends JFrame {
         outputArea.setText(sb.toString());
     }
     public static void main(String[] args) {
-            new ATMFrame();
+        new ATMFrame();
     }
 }

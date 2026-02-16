@@ -82,8 +82,8 @@ OOP_Java_Semester_Practice/
 │   └── LAB Assignment_03/
 │
 ├── 07_Practice_Problems/
-│   ├── Problem_01.java
-│   ├── Problem_02.java
+│   ├── Problem01/
+│   ├── Problem02/
 │   └── ...
 │
 ├── data/

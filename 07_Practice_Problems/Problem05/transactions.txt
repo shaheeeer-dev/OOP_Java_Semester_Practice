@@ -1,0 +1,2 @@
+Transaction Type: Deposit, Amount: 2000.0
+Transaction Type: Withdraw, Amount: 6000.0

@@ -1,0 +1,4 @@
+HandTool Used: Hammer, Hours: 5, New Cost: $30.0
+HandTool Used: Wrench, Hours: 3, New Cost: $18.0
+PowerTool Used: Drill, Hours: 4, New Cost: $120.0
+PowerTool Used: Grinder, Hours: 2, New Cost: $160.0

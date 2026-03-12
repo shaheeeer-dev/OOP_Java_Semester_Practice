@@ -8,6 +8,7 @@
 
 This repository contains all my Object-Oriented Programming (Java)
 practice, assignments, and mini projects completed during the semester.
+<img width="1440" height="831" alt="Screenshot 2026-03-12 at 8 40 25 PM" src="https://github.com/user-attachments/assets/a55ad167-e946-4cff-b791-bacd2b0a7ad7" />
 
 ## 📚 Topics Covered
 - Classes & Objects
